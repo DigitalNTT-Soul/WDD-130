@@ -1,0 +1,24 @@
+body {
+    background-color: #fca6c9;
+    text-align: center;
+    margin: auto 30%
+}
+
+header {
+    color: white;
+}
+h1:hover {
+    color: black;
+}
+
+ol {
+    text-align: left;
+}
+img {
+    width: 50%;
+}
+main h2 {
+    color: white;
+    margin: auto 15%;
+    font-size: 2.5em;
+}
