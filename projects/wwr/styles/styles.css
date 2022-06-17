@@ -179,6 +179,7 @@ footer .social img {
     border: 10px solid #00bbf9;
     width: 100%;
     box-shadow: 5px 5px 10px #6f7364;
+    box-sizing: border-box;
 }
 
 .card-img:hover {
@@ -218,6 +219,30 @@ main section img {
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
+}
+
+.page-title-pane {
+    grid-column: 1/11;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+article {
+    background-color: #fff;
+    box-shadow: 5px 5px 10px #6f7364;
+    border: 10px solid #00bbf9;
+}
+
+#salmon-river-card {
+    grid-column: 2/4;
+}
+
+#desolation-card {
+    grid-column: 5/7;
+}
+
+#grand-canyon-card {
+    grid-column: 8/10;
 }
 
 @media screen and (max-width: 900px) {
