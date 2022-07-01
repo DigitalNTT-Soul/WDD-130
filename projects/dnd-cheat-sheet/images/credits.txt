@@ -1,0 +1,27 @@
+Kathrin "Kitty" Polikeit:
+    Elf_markwoman.png:
+        GNU General Public License
+
+No Author Listed:
+    exploration.jpg:
+        Public Domain License
+
+David Revoy & Blender Foundation:
+    2010-1-meeting-under-the-tree.jpg:
+        https://creativecommons.org/licenses/by/3.0/deed.en
+    Bridge-medieval-fantasy-city.png:
+        https://creativecommons.org/licenses/by/3.0/deed.en
+    Genghis-jones-pod-active_mango_concept-art 02.png:
+        https://creativecommons.org/licenses/by/3.0/deed.en
+    Environments-04-shaman-hut-inside-B.png:
+        https://creativecommons.org/licenses/by/3.0/deed.en
+    Future-Koningsplein_01.jpg:
+        https://creativecommons.org/licenses/by/3.0/deed.en
+
+Borja Pindado:
+    Rhan-Tegoth_by_Borja_Pindado.jpg:
+        https://creativecommons.org/licenses/by-sa/3.0/deed.en
+
+"Boxiness":
+    Fantasy_Digital_Painting.png:
+        https://creativecommons.org/licenses/by-sa/3.0/deed.en
