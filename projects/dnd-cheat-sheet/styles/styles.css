@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Nodesto Caps Condensed";
+    src: url("https://digitalntt-soul.github.io/WDD-130/projects/dnd-cheat-sheet/styles/fonts/Nodesto Caps Condensed.otf") format("opentype");
+}
+
+body {
+    max-width: 1600px;
+    background-color: #fdf9d3;
+    margin: 0 auto;
+}
+
+.wizard-hat-icon {
+    width: 80px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #e30713;
+}
+
+nav, footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    background-color: #e30713;
+}
+
+nav a, footer a {
+    padding: 25px;
+    text-decoration: none;
+    border: 2px solid #000;
+    color: #fff;
+}
+
+nav a:hover, footer a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: "Nodesto Caps Condensed";
+    word-spacing: 5px; /* mandatory, because this font's default word-spacing is basically 0 */
+    background-color: #e30713;
+    color: #fff;
+}
+
+#homepage_img_0, #homepage_img_1 {
+    width: 100%
+}
+
+p, ul {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: Lato, Helvetica, sans-serif;
+}

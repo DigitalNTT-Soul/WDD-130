@@ -6,15 +6,15 @@ Fonts are separated by a | */
 
 @font-face {
     font-family: "Nodesto Caps Condensed";
-    src: url("https://ldigitalntt-soul.github.io/WDD-130/projects/dnd-cheat-sheet/styles/fonts/Nodesto Caps Condensed.otf") format("opentype");
+    src: url("https://digitalntt-soul.github.io/WDD-130/projects/dnd-cheat-sheet/styles/fonts/Nodesto Caps Condensed.otf") format("opentype");
 }
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
+  --primary-color: white   ;
+  --secondary-color: #fdf9d3 ;
   --accent1-color: #e30713;
-  --accent2-color: white;
+  --accent2-color: black;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Nodesto Caps Condensed";
@@ -49,6 +49,7 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
+  word-spacing: .2em; /* had to change this to make the heading font behave better */
 }
 h2 {
   text-align: center;
