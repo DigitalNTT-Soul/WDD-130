@@ -7,6 +7,7 @@ body {
     max-width: 1600px;
     background-color: #fdf9d3;
     margin: 0 auto;
+    font-size: larger;
 }
 
 .wizard-hat-icon {
@@ -59,4 +60,23 @@ p, ul {
     margin: 0 auto;
     padding: 10px;
     font-family: Lato, Helvetica, sans-serif;
+}
+
+#disparity_grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 30px;
+}
+
+#disparity_img_0 {
+    grid-column: 1/2;
+}
+
+#disparity_text_block {
+    grid-column: 2/3;
+}
+
+#disparity_img_1 {
+    width: 100%;
+    padding-bottom: 30px;
 }
