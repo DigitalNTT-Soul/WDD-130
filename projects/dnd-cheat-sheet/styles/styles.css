@@ -64,7 +64,7 @@ p, ul {
 
 #disparity_grid {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 2fr;
     padding: 30px;
 }
 
@@ -76,7 +76,34 @@ p, ul {
     grid-column: 2/3;
 }
 
+#combat_img_0_div, #disparity_img_1_div{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
 #disparity_img_1 {
     width: 100%;
-    padding-bottom: 30px;
+}
+
+#combat_grid_div {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 30px;
+    width: 50%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#combat_grid_div p {
+    width: 90%;
+}
+
+#combat_img_1 {
+    grid-column: 1;
+    width: 100%;
+}
+
+#combat_grid_text_block {
+    grid-column: 2;
 }
