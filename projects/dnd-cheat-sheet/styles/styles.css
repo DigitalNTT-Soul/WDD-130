@@ -76,7 +76,9 @@ p, ul {
     grid-column: 2/3;
 }
 
-#combat_img_0_div, #disparity_img_1_div{
+#combat_img_0_div, #disparity_img_1_div,
+#exploration_and_socialization_img_0,
+#exploration_and_socialization_img_1{
     display: flex;
     justify-content: center;
     padding: 30px;
